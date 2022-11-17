@@ -4,6 +4,7 @@
 
 Official Pytorch implementation for our paper Semantic Distance Adversarial Learning for Text-to-Image Synthesis
 
+<img src="framework.pdf" width="804px" height="380px"/>
 
 ---
 ## Requirements
