@@ -49,5 +49,10 @@ python sampling.py
 python test_fid.py
 ```
  
+ The code is released for academic research use only. Please contact us if you have any questions. [Yuan Bowen](yuanbw0925@gmail.com)
  
+ **Reference**
+ - [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_AttnGAN_Fine-Grained_Text_CVPR_2018_paper.pdf) 
+- [DM-GAN: Realistic Image Synthesis with Stacked Generative Adversarial Networks](https://arxiv.org/abs/1904.01310) 
+- [DF-GAN: A Simple and Effective Baseline for Text-to-Image Synthesis](https://arxiv.org/abs/2008.05865)
  
