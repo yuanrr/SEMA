@@ -34,7 +34,7 @@ pip install -r requirements.txt
 
 ## Evaluation
 
-### Download Pretrained Model 
+### Download Pretrained Model for [coco](https://pan.baidu.com/s/1xKuId0EZhpqHL0tx34rkZg) (password: guvx)
 
 
 ### Evaluate SEMA
