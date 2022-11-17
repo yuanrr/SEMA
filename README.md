@@ -34,14 +34,20 @@ pip install -r requirements.txt
 
 ## Evaluation
 
-### Download Pretrained Model for [coco](https://pan.baidu.com/s/1xKuId0EZhpqHL0tx34rkZg) (password: guvx)
-
+### Download Pretrained Model 
+- [SEMA for coco](https://pan.baidu.com/s/1xKuId0EZhpqHL0tx34rkZg) (password: guvx)
 
 ### Evaluate SEMA
 We synthesize about 3w images from the test descriptions and evaluate the FID between **synthesized images** and **test images** of each dataset.
 
-
- 
+1. synthesize images by the given pretrained model
+```
+python sampling.py
+```
+2. evaluate the FID score
+```
+python test_fid.py
+```
  
  
  
