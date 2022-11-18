@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 ## Training
   ```
-  Code for training SEMA will be released soon.
+  Code for training SEMA will be released soon. Hope to get your continued attention.
   ```
 
 ## Evaluation
