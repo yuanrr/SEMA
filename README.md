@@ -54,8 +54,8 @@ The released model achieves better performance than SEMA paper version.
 
 | Model  | COCO-FID↓ |
 | --- |  --- |
-| SEMA(paper) | 17.51  |
-| SEMA(released model) | **~16.5** |
+| SEMA w/o BERT(paper) | 17.51  |
+| SEMA w/o BERT(released model) | **~16.5** |
 
 
  The code is released for academic research use only. Please contact us if you have any questions. [Yuan Bowen](yuanbw0925@gmail.com)
