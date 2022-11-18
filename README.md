@@ -36,7 +36,7 @@ pip install -r requirements.txt
 - [SEMA w/o BERT for coco](https://pan.baidu.com/s/1xKuId0EZhpqHL0tx34rkZg) (password: guvx)
 
 ### Evaluate SEMA
-We synthesize about 3w images from the test descriptions and evaluate the FID between **synthesized images** and **test images** of each dataset.
+We synthesize about 30k images from the test descriptions and evaluate the FID between **synthesized images** and **test images** of each dataset.
 
 1. synthesize images by the given pretrained model
 ```
