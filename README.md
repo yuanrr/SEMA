@@ -56,7 +56,6 @@ The released model achieves better performance than SEMA paper version.
 | --- |  --- |
 | SEMA w/o BERT(paper) | 17.51  |
 | SEMA w/o BERT(released model) | **~16.5** |
-
 | **SEMA(paper)** |  **16.31** |
 
 
