@@ -35,7 +35,7 @@ pip install -r requirements.txt
 ## Evaluation
 
 ### Download Pretrained Model 
-- [SEMA for coco](https://pan.baidu.com/s/1xKuId0EZhpqHL0tx34rkZg) (password: guvx)
+- [SEMA w/o BERT for coco](https://pan.baidu.com/s/1xKuId0EZhpqHL0tx34rkZg) (password: guvx)
 
 ### Evaluate SEMA
 We synthesize about 3w images from the test descriptions and evaluate the FID between **synthesized images** and **test images** of each dataset.
@@ -48,7 +48,16 @@ python sampling.py
 ```
 python test_fid.py
 ```
- 
+
+### Performance
+The released model achieves better performance than SEMA paper version.
+
+| Model  | COCO-FID↓ |
+| --- |  --- |
+| SEMA(paper) | 17.51  |
+| SEMA(released model) | **~16.5** |
+
+
  The code is released for academic research use only. Please contact us if you have any questions. [Yuan Bowen](yuanbw0925@gmail.com)
  
  **Reference**
