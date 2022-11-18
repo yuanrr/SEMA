@@ -16,6 +16,9 @@ Official Pytorch implementation for our paper Semantic Distance Adversarial Lear
 Clone this repo.
 ```
 git clone https://github.com/yuanrr/SEMA
+
+conda create -n SEMA
+conda activate SEMA
 pip install -r requirements.txt
 ```
 
