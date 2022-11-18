@@ -96,7 +96,8 @@ def sampling(text_encoder, netG, dataloader, device):
             hidden = text_encoder.init_hidden(batch_size)
             words_embs, sent_emb = text_encoder(captions, cap_lens, hidden)
             words_embs, sent_emb = words_embs.detach(), sent_emb.detach()
-            sent_emb = 0.5 * sent_emb.data + 0.5 * bert.data
+            # sent_emb = 0.5 * sent_emb.data + 0.5 * bert.data
+            sent_emb = sent_emb.data  # the released model use LSTM encoder only
             with torch.no_grad():
                 if args.trunc == True:
                     truncation = args.truncation
