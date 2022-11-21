@@ -60,7 +60,7 @@ The released model achieves better performance than SEMA paper version.
 | **SEMA (paper)** |  **16.31** |
 
 
- The code is released for academic research use only. Please contact us if you have any questions. [Yuan Bowen](yuanbw0925@gmail.com)
+ The code is released for academic research use only. Please contact us if you have any questions. [Bowen Yuan](yuanbw0925@gmail.com)
  
  **Reference**
  - [AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_AttnGAN_Fine-Grained_Text_CVPR_2018_paper.pdf) 
